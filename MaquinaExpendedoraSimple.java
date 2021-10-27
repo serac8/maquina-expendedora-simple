@@ -41,8 +41,8 @@ public class MaquinaExpendedoraSimple {
         return precioBillete;
     }
 
-    public void setPrecioBillete(int precioBillete) {
-        this.precioBillete = precioBillete;
+    public void setPrecioBillete(int precioBilleteCambiado) {
+        precioBillete = precioBilleteCambiado;
         
     }
     
