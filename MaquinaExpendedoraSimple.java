@@ -56,11 +56,11 @@ public class MaquinaExpendedoraSimple {
     
     }
     
-    public int vaciardepositoDinero () {
-        depositoDinero = depositoDinero - balanceClienteActual;
+    public void vaciardepositoDinero () {
+        depositoDinero = balanceClienteActual - totalDineroAcumulado;
+        totalDineroAcumulado = 0;
+        depositoDinero = 0;
         balanceClienteActual = 0;
-        return depositoDinero = 0;
-        
     
     
     }
