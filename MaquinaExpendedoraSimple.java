@@ -45,9 +45,16 @@ public class MaquinaExpendedoraSimple {
         precioBillete = precioBilleteCambiado;
         
     }
-    //CAMBIOS REALIZADOS EN CASA
+    
     public void setPrecioReducido(int precioReducido) {
         precioBillete = precioBillete - precioReducido; 
+    
+    
+    }
+    
+    public int setvaciarDepositoDinero () {
+        return balanceClienteActual = 0;
+    
     
     
     }
