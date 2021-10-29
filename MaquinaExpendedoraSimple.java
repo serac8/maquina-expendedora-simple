@@ -11,7 +11,7 @@ public class MaquinaExpendedoraSimple {
     // El destino del billete
     private String estacionDestino;
     //DEPÓSITO DE DINERO
-    private int depositoDinero;
+   
     
 
     
@@ -26,7 +26,7 @@ public class MaquinaExpendedoraSimple {
         totalDineroAcumulado = 0;
         estacionOrigen ="León";
         estacionDestino ="Gijón";
-        depositoDinero = balanceClienteActual;
+       
     }
     
     public MaquinaExpendedoraSimple(int preciodelBillete,String estacionDeDestino) { //CONSTRUCTOR2  
@@ -35,7 +35,7 @@ public class MaquinaExpendedoraSimple {
         totalDineroAcumulado = 0;
         estacionOrigen ="León";
         estacionDestino =estacionDeDestino;
-        depositoDinero = balanceClienteActual;
+        
     }
     
     /**
@@ -57,9 +57,7 @@ public class MaquinaExpendedoraSimple {
     }
     
     public void vaciardepositoDinero () {
-        depositoDinero = balanceClienteActual - totalDineroAcumulado;
         totalDineroAcumulado = 0;
-        depositoDinero = 0;
         balanceClienteActual = 0;
     
     
